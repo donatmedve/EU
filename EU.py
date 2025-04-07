@@ -41,7 +41,7 @@ def utolsó(országok):
         elif int(ország[1][0]) == int(utolsó[1][0]) and int(ország[1][1]) == int(utolsó[1][1]) and int(ország[1][2]) > int(utolsó[1][2]):
             utolsó = ország
     print(utolsó[0])
-
+ 
 def átlag (országok):
     átlag = {}
     for ország in országok:
